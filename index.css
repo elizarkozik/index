@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+label.logo{
+
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 50px;
+    font-weight: bold;
+}
+nav{
+    background-color:hotpink;
+    width: 100%;
+    position: fixed;
+}
+.tbox{
+    margin-bottom: 10px;
+}
+nav ul{
+    float: right;
+    margin-right:20px ;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 10px;
+
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+
+a.active, a:hover{
+    background:navajowhite;
+    transition: 5s;
+
+}
+/* banner*/
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    line-height: 1.5;
+}
+.half-width .img{
+    width:100%;}
+
+.header{
+    
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+} 
+.heading{
+    margin-top:150px;
+
+}
+p{
+    margin: 25px 0;
+}
+.link-button{
+    background-image: linear-gradient(45deg, hotpink, deeppink);
+    padding: 7px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700; }
+a:hover{
+    background:deeppink;
+    height: 20px;
+    width: 20px;
+    color:hotpink;}    
+    
+    /* Card*/
+.card{
+    width: 330px;
+    margin-top: 70px;
+    box-sizing: border-box;
+    border-radius: 9px;
+    box-shadow: 1px 2px 4px gray;
+}
+.img-style{
+width: 100%;
+height: 320px;
+border-radius: 3px;
+}
+.card-body .card-title{
+    padding: 5px;
+    text-align: center;
+    font-size: 1rem;
+
+}
+.card-body .card-desc{
+    color: white;
+    background-color:rgb(243, 115, 215);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 3px;
+}
+
+.card:hover{
+    box-shadow: 6px 12px 10px gray;
+}
+.card-containers{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
+.link-button-1{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+.link-button-1:hover{
+
+    background-color:peru;
+    color: white;
+}
+.container{
+    margin: 70px;
+    display: flex;
+}
+/*About us*/
+.img-2{
+    width: 40%;
+    border-radius:70%;
+
+}
+.half-width-2{
+    width:60%;
+    margin: 70px 40px;}
+
+
+/* Sign in*/
+.sign-in-part{
+    margin-top: 70px;
+    display: flex;
+    background-color: plum;
+    padding: 50px;
+}
+
+.subscribe{margin-left: 120px;
+}
+    
+    .sign-in{
+        margin-left: 120px;
+    }
+    input{
+        border: none;
+        padding: 5px;
+        border-radius: 3px;
+    }
+
+
+    /*footer*/
+
+    .btn{
+        border: none;
+        padding: 5px 20px;
+        font-size: 1.5rem;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        
+    }
+    footer{
+        background-color: black;
+        color: white;
+        height: 130px;
+        text-align: center;
+        padding: 30px;
+    }
